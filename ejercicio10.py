@@ -15,4 +15,4 @@ if __name__=='__main__':
     if(dinero>=precio_productos):
         print('El dinero si le alcanza')
     else:
-        print('El dinero no le alcanza')
+        print(f'El dinero no le alcanza, debe tener mas de $ {precio_productos}')
